@@ -1,0 +1,92 @@
+﻿/* Large desktop */
+@media (min-width: 1200px) {
+    #footer.span12 {
+        width: 100%;
+    }
+    .span4 {
+        width: 300px;
+    }
+    .span3 {
+        width: 220px;
+    }
+    .span8 {
+        width: 620px;
+    }
+
+}
+
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    #footer.span12 {
+        width: 100%;
+    }
+    #events,
+    .container {
+        width: auto;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 24px;
+    }
+    body {
+        font-size: 16px;
+    }
+    label, input, button, select, textarea {
+        font-size: 16px;
+    }
+    #events, .container {
+        width: auto;
+    }
+    #slogan {
+        width: auto;
+    }
+    #footer.span12 {
+        width: 100%;
+    }
+    #footer .form-horizontal button {
+        margin-top: 10px;
+    }
+    #footerLogo {
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    .tableScroll {
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    #sponsors .span4.pull-right {
+        padding: 0;
+        float: none;
+    }
+
+    #event .pitem input[type=submit] {
+        margin-left: 0;
+    }
+
+    #sponsors p img,
+    #frontpage p img {
+        width: 100%;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #footer.span12 {
+        width: 100%;
+    }
+
+    
+    #btnshowmembers {
+        margin-left: 0!important;
+        margin-top: 10px;
+    }
+
+
+}

@@ -1,0 +1,141 @@
+body {font-family: 'Armata', sans-serif;font-size:12px;line-height:16px;color:#010101;}
+
+h1, h2, h3, h4, h5, h6 {color:#599333;}
+h1,
+#frontpage h2,
+h3 {font-size:14px;line-height:20px;font-weight:500;margin-bottom:10px;}
+h2 {font-size:12px;line-height:16px;font-weight:500;margin-bottom:0;}
+p {margin-bottom:20px;}
+li {line-height:16px;}
+
+.container {width:960px;}
+
+.collapse {
+  overflow: hidden \9;
+}
+
+.header-container {width:100%;height:350px;background-position:50% 0;background-repeat:no-repeat;background-size:auto 100%;}
+/*
+@media (min-width: 768px) and (max-width: 979px) {
+.header-container {width:100%;height:250px;background-size:auto 100%;}
+}
+@media (max-width: 767px) {
+.header-container {width:100%;height:200px;background-size:auto 100%;}
+}
+*/
+
+.span4.pull-right {padding-top:40px;}
+.btn {font-size:12px;}
+.clickable {cursor:pointer;}
+.clickable a:hover {text-decoration:none;}
+
+#slogan {float:right;width:80%;margin-top:40px;background-color:#000;color:#fff;border:0;border-radius:8px;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0) transparent;
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+#slogan p {color:#fff;filter:alpha(opacity=100);opacity:1;}
+
+.nav-list {width:174px;position:relative;}
+.nav-list li {width:100%;position:relative;margin-top:1px;background-color:#fff;}
+.nav-list a,
+.nav-list > li > a {background-color:#fff;color:#707070;font-size:14px;text-shadow:none;}
+.nav-list > li > a {padding-left:45px;}
+.nav-list > .active > a,
+.nav-list > .active > a:hover {background-color:#fff;color:#010101;}
+.nav-list ul {min-width:230px;position:absolute;top:-1px;left:165px;list-style:none;}
+.nav-list ul > li > a {background-color:#fff;padding:3px 15px;display:block;}
+.nav-list ul > li > a:hover {background-color:#eee;text-decoration:none;}
+
+#footer.span12 {width:922px;}
+#footer.well {background-color:#d0d0d0;border:0;border-radius:10px;}
+#footerLogo {margin:0 0 10px -25px;}
+
+#contactform label {font-size:12px;margin-bottom:0;}
+#contactform input[type=submit] {width:60px;margin-left:165px;font-family:inherit;font-size:12px;padding:6px 10px;}
+
+#tilmeldingform {margin-bottom:0;}
+#tilmeldingform label {font-size:12px;margin-bottom:0;}
+#tilmeldingform input {width:240px;}
+#tilmeldingform input[type=submit] {width:60px;margin-left:195px;font-family:inherit;font-size:12px;padding:6px 10px;}
+.akstatus {float:left;width:100%;font-style:italic;margin-bottom:10px;}
+
+#frontpage,
+#textpage,
+#events,
+#event,
+#members,
+#sponsors {margin-top:20px;margin-bottom:30px;}
+
+#memberSearch {margin:5px 0;}
+#memberSearch input {margin:0;border-radius:20px;}
+#memberSearch input[type=submit] {border-radius:4px;font-family:inherit;font-size:12px;padding:6px 10px;}
+.member {height:330px;margin-bottom:20px;position:relative;}
+.member .imagex {width:100%;height:145px;overflow:hidden;}
+.modal-body.member .image {margin-bottom:20px;}
+.member h2 {font-size:12px;line-height:18px;font-weight:500;margin-bottom:10px;}
+.member h3 {font-size:12px;line-height:18px;font-weight:500;color:#010101;}
+.modal-header h3 {font-size:18px;padding-left:20px;}
+.member .btn {position:absolute;bottom:0;left:0;}
+.member .memberContactForm label {font-size:12px;}
+.member .memberContactForm .btn {position:relative;}
+
+#sponsors ul {float:left;width:100%;list-style:none;margin:0 0 20px;padding:0;}
+#sponsors li {float:left;width:100%;}
+#sponsors li .image {float:left;width:165px;text-align:center;}
+#sponsors li p {float:left;padding-top:20px;}
+
+.accordion-body {padding-bottom:10px;}
+.accordion-inner {border:0;}
+#event label,
+.accordion-inner label {float:left;width:120px;margin-bottom:0;font-size:12px;line-height:16px;}
+#event .data,
+.accordion-inner .data {float:left;width:460px;}
+#event .btn,
+.accordion-inner .btn {margin-top:10px;}
+
+#event .pitem .plabel label {width:240px;padding:4px 0 0;}
+#event .pitem .pinput input[type=file] {height:26px;border-radius:8px;margin-top:0;}
+#event .pitem input[type=submit] {margin-left:240px;}
+
+#listEventsCol {list-style:none;margin:0;padding:0;}
+#listEventsCol li {margin-bottom:20px;color:#0088CC;}
+
+form input {
+
+  outline: none;
+}
+
+form input.error {
+
+  border:1px solid darkred;
+}
+
+.member .memberContactForm label.error {
+
+  color:darkred;
+}
+
+
+table.loginForm td {
+
+	padding:15px;
+}
+
+
+.loginonpages {
+
+	height:12px;margin-top:10px;padding-right:20px;
+
+}
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

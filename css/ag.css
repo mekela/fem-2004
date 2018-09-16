@@ -1,0 +1,48 @@
+.menu__trigger{
+  position: relative;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 15px;
+  color: #b1b1b1;
+}
+.menu__trigger{
+  display: none;
+}
+.drop__trigger{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #599333;
+  color:white;
+  text-align: center;
+  cursor: pointer;
+  z-index: 3;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  line-height: 18px;
+  display: none;
+}
+@media screen and (max-width: 992px) {
+.menu__trigger{
+  display: block;
+}
+.nav-list{
+  display: none;
+}
+.drop__trigger{
+  display: block;
+}
+.nav-list ul{
+  height: auto !important;
+  position: static;
+  margin-left: 25px;
+  background: #fff;
+  min-width: 164px;
+  display: none !important;
+}
+.nav-list ul.openDrop{
+  display: block !important;
+}
+}
