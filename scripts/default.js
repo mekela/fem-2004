@@ -107,9 +107,11 @@ $(document).ready(function(){
         //ag
         $( ".menu__trigger" ).click(function() {
           $( ".nav-list" ).slideToggle( "slow" );
+          $( this ).children().toggleClass( "fa-times" ); 
         });
         $( ".drop__trigger" ).click(function() {
           $( this ).next().toggleClass( "openDrop" );
+          $( this ).children().toggleClass( "fa-times" ); 
         });
           
       }); 

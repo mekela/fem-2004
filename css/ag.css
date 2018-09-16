@@ -2,8 +2,14 @@
   position: relative;
   cursor: pointer;
   font-size: 25px;
-  padding: 15px;
-  color: #b1b1b1;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  background: #599333;
+  margin: 10px;
 }
 .menu__trigger{
   display: none;
@@ -23,6 +29,7 @@
   border-radius: 50%;
   line-height: 18px;
   display: none;
+  font-size: 10px; 
 }
 @media screen and (max-width: 992px) {
 .menu__trigger{
@@ -37,9 +44,13 @@
 .nav-list ul{
   height: auto !important;
   position: static;
-  margin-left: 25px;
+  margin-left: -15px;
   background: #fff;
-  min-width: 164px;
+  min-width: 204px;
+  padding-left: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   display: none !important;
 }
 .nav-list ul.openDrop{
